@@ -42,7 +42,7 @@ if not fruit_choice:
   streamlit.dataframe(fruityvice_normalized)
  
  except URLError as e:
-  stremalit.error()
+  streamlit.error()
 
 
 streamlit.stop()
